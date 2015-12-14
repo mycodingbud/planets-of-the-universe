@@ -1,0 +1,18 @@
+<nav class="nav">
+<ul class="{{include.navclass}}">
+
+<li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+
+<li><a href="/planets/" class="{% if page.url contains 'planets' %}current{% endif %}">Planets</a></li>
+
+<li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news' or page.ulr contains 'recently-discovered'%}current{% endif %}">News</a></li>
+
+
+<!-- <li><a href="news.html" {% if page.url contains "news.html" %}class="current"{% endif %}>News</a></li>
+<li><a href=".html" {% if page.url contains "recently-discovered.html" %}class="current"{% endif %}>News</a></li>
+ -->
+
+
+</ul>
+
+</nav>

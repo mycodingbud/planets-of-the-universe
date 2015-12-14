@@ -1,0 +1,11 @@
+- title: Dwarf
+  folder: Dwarf
+  content: 'A dwarf planet is .....'
+
+- title: Terrestrial
+  folder: Terrestrial
+  content: 'A Terrestrial planet is .....'
+
+- title: Giant
+  folder: Giant
+  content: 'A Gas Giant planet is .....'

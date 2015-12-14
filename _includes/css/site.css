@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    padding: 0;
+    font: normal 100%/1.4 Georgia, serif;
+}
+
+.masthead {
+   padding: 1em;
+   background: #000531 url("http://www.spacetelescope.org/static/images/background.jpg") repeat-x;;
+   background-size: cover; 
+   color: #fff;
+}
+.masthead-planets {
+    background: purple;
+}
+
+.current {
+    background-color: lightblue;
+    color: #fff;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav > li {
+    display: inline-block;
+}
+
+.nav-top {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
